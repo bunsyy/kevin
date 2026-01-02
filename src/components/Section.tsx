@@ -8,7 +8,7 @@ interface SectionProps {
 
 const Section: React.FC<SectionProps> = ({ id, title, children }) => {
   return (
-    <section id={id} className="py-24 max-w-6xl mx-auto px-6">
+    <section id={id} className="container py-24 max-w-6xl mx-auto px-6">
       <h2 className="flex items-center gap-4 uppercase text-2xl text-primary font-bold">
         <span className="h-px w-12 bg-primary"></span>
         {title}

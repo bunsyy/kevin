@@ -170,28 +170,6 @@
   }
 }
 
-section {
-  padding: 6rem 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* a {
-  font-weight: 500;
-  color: inherit;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-main a:not([class*="btn"], [class*="Button"]) {
-  color: var(--accent);
-}
-
-a:hover {
-  color: var(--accent);
-  opacity: 0.8;
-} */
-
 @layer components {
   .glass-card {
     @apply bg-white/3 dark:bg-white/5 backdrop-blur-xl border border-black/10 dark:border-white/15 rounded-2xl shadow-xs;
