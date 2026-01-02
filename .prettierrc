@@ -1,0 +1,32 @@
+{
+  "singleQuote": false,
+  "printWidth": 80,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "server-only",
+    "^@core/(.*)$",
+    "^react$",
+    "^next",
+    "<THIRD_PARTY_MODULES>",
+    "^@/app/(.*)$",
+    "^@/types/(.*)$",
+    "^@/auth",
+    "^@/generated/(.*)$",
+    "^@/modules/(.*)$",
+    "^@/components/(.*)$",
+    "^@/lib/(.*)$",
+    "^@/utils/(.*)$",
+    "^(src)(/.*|$)",
+    "^\\.\\.(?!/?$)",
+    "^\\.\\./?$",
+    "^\\./(?=.*/)(?!/?$)",
+    "^\\.(?!/?$)",
+    "^\\./?$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderBuiltinModulesToTop": true,
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+  "importOrderMergeDuplicateImports": true,
+  "importOrderCombineTypeAndValueImports": true
+}
